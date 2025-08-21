@@ -7,7 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate in Computer Science at Rutgers University (expected 2026). My research focuses on near-duplicate text alignment and deduplication for large-scale LLM pretraining datasets, vector databases and approximate nearest neighbor (ANN) search, and sparse attention for efficient LLM inference. Previously, I was a research intern at Alibaba Cloud. I am open to discussions and collaborations, as well as job opportunities in both academia and industry. Feel free to reach out at zhencan.peng@rutgers.edu.
+I am a Ph.D. candidate in Computer Science at Rutgers University, advised by [Prof. Dong Deng](https://people.cs.rutgers.edu/~dd903/). My research centers on near-duplicate text alignment and deduplication for large-scale LLM pretraining datasets, vector databases and approximate nearest neighbor (ANN) search, and sparse attention for efficient LLM inference. Previously, I was a research intern at Alibaba Cloud, supervised by Wenchao Zhou. I am open to discussions and collaborations, and I am **currently on the job market for 2026**. Feel free to reach out at **zhencan.peng@rutgers.edu**.
+
 
 # Publications
 - **Dynamic Range-Filtering Approximate Nearest Neighbor Search.**  
