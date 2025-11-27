@@ -9,6 +9,9 @@ redirect_from:
 
 I am a Ph.D. candidate in Computer Science at Rutgers University, advised by [Prof. Dong Deng](https://people.cs.rutgers.edu/~dd903/). My research centers on near-duplicate text alignment and deduplication for large-scale LLM pretraining datasets, vector databases and approximate nearest neighbor (ANN) search, and sparse attention for efficient LLM inference. Previously, I was a research intern at Alibaba Cloud. I am open to discussions and collaborations, and I am **currently on the job market for 2026**. Feel free to reach out at **zhencan.peng@rutgers.edu**.
 
+# News
+- **Nov 27, 2025:** Released [FastSketchLSH](https://github.com/pzcddm/FastSketchLSH), a SIMD-accelerated deduplication package tailored for extreme-scale text corpora such as LLM pretraining data, combining Fast Similarity Sketching with banded LSH to deliver high-throughput, accurate filtering for production pipelines. We welcome your comments, GitHub stars, and questions—feel free to open an issue or reach out directly.
+
 
 # Publications
 - **Dynamic Range-Filtering Approximate Nearest Neighbor Search.**  
