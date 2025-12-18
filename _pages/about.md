@@ -16,7 +16,7 @@ I am a Ph.D. candidate in Computer Science at Rutgers University, advised by [Pr
 # Publications
 - **Dynamic Range-Filtering Approximate Nearest Neighbor Search.**  
   **Zhencan Peng**, Miao Qiao, Wenchao Zhou, Feifei Li, Dong Deng.  
-  **PVLDB 2025**.
+  **PVLDB 2025**. [Code](https://github.com/rutgers-db/DynamicSegmentGraph)
 
 - **Flux: Unifying Heterogeneous Infrastructure for Alibaba AnalyticDB.**  
   Wei Li, Jiachi Zhang, Ye Yin, Yan Li, Zhanyang Zhu, Yuhao Li, **Zhencan Peng**, Lan Lu, Wenchao Zhou, Liang Lin, Feifei Li.  
