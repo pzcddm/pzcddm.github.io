@@ -14,6 +14,14 @@ I am a Ph.D. candidate in Computer Science at Rutgers University, advised by [Pr
 
 
 # Publications
+- **LindormVector: A Distributed Vector Engine on a Cloud-Native Multi-Model NoSQL Database.**  
+  Yan Wang, Jian Zhou, Sai Huang, Chao Dou, Hanwen Tian, Zhijie Jiang, Zongning Zhang, Xiaoqi Li, **Zhencan Peng**, Chunhui Shen, Wei Zhang, Feifei Li, Dong Deng.  
+  **ACM SIGMOD 2026 (Industry)**.
+
+- **Near-Duplicate Text Alignment under Weighted Jaccard Similarity.**  
+  Yuheng Zhang, Miao Qiao, **Zhencan Peng**, Dong Deng.  
+  **PVLDB 2026**.
+
 - **Dynamic Range-Filtering Approximate Nearest Neighbor Search.**  
   **Zhencan Peng**, Miao Qiao, Wenchao Zhou, Feifei Li, Dong Deng.  
   **PVLDB 2025**. [Code](https://github.com/rutgers-db/DynamicSegmentGraph)
