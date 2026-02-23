@@ -14,6 +14,9 @@ I am a Ph.D. candidate in Computer Science at Rutgers University, advised by [Pr
 
 
 # Publications
+- **LSHAlign: All-Pair Near-Duplicate Text Alignment via Locality-Sensitive Hashing.**  
+  Yuheng Zhang, **Zhencan Peng***, Miao Qiao, Wei Zhang, Feifei Li, Dong Deng.  
+  **ACM SIGMOD 2026**.  
 - **LindormVector: A Distributed Vector Engine on a Cloud-Native Multi-Model NoSQL Database.**  
   Yan Wang, Jian Zhou, Sai Huang, Chao Dou, Hanwen Tian, Zhijie Jiang, Zongning Zhang, Xiaoqi Li, **Zhencan Peng**, Chunhui Shen, Wei Zhang, Feifei Li, Dong Deng.  
   **ACM SIGMOD 2026 (Industry)**.
@@ -57,6 +60,8 @@ I am a Ph.D. candidate in Computer Science at Rutgers University, advised by [Pr
 - **Toward Device-free and User-independent Fall Detection Using Floor Vibration.**  
   Kaishun Wu, Yandao Huang, Minghui Qiu, **Zhencan Peng**, Lu Wang.  
   **ACM TOSN 2023 (Vol. 19, Issue 1)**.
+
+\* An asterisk indicates equal-contribution (co-first) authorship.
 
 # Professional Service
 - **Organization Member:** SIGMOD 2023 Student Programming Contest.
