@@ -15,6 +15,11 @@ I am a Ph.D. candidate in Computer Science at Rutgers University, advised by [Pr
 
 
 # Publications
+
+- **Cache Mechanism for Agent RAG Systems.**  
+  Shuhang Lin*, **Zhencan Peng***, Lingyao Li, Xiao Lin, Xi Zhu, Yongfeng Zhang.  
+  **ACL 2026 Findings**.
+
 - **LSHAlign: All-Pair Near-Duplicate Text Alignment via Locality-Sensitive Hashing.**  
   Yuheng Zhang, **Zhencan Peng***, Miao Qiao, Wei Zhang, Feifei Li, Dong Deng.  
   **ACM SIGMOD 2026**.  
@@ -22,10 +27,6 @@ I am a Ph.D. candidate in Computer Science at Rutgers University, advised by [Pr
 - **LindormVector: A Distributed Vector Engine on a Cloud-Native Multi-Model NoSQL Database.**  
   Yan Wang, Jian Zhou, Sai Huang, Chao Dou, Hanwen Tian, Zhijie Jiang, Zongning Zhang, Xiaoqi Li, **Zhencan Peng**, Chunhui Shen, Wei Zhang, Feifei Li, Dong Deng.  
   **ACM SIGMOD 2026 (Industry)**.
-
-- **Cache Mechanism for Agent RAG Systems.**  
-  Shuhang Lin*, **Zhencan Peng***, Lingyao Li, Xiao Lin, Xi Zhu, Yongfeng Zhang.  
-  **ACL 2026 Findings**.
 
 - **Near-Duplicate Text Alignment under Weighted Jaccard Similarity.**  
   Yuheng Zhang, Miao Qiao, **Zhencan Peng**, Dong Deng.  
@@ -73,7 +74,7 @@ I am a Ph.D. candidate in Computer Science at Rutgers University, advised by [Pr
 - **Organization Member:** SIGMOD 2023 Student Programming Contest.
 
 # Teaching
-- **Lecturer:** CS 336 *PRINCIPLES OF INFORMATION AND DATA MANAGEMENT* — **Ongoing**.
+- **Lecturer:** CS 336 *PRINCIPLES OF INFORMATION AND DATA MANAGEMENT* — **2025**.
 - **Teaching Assistant:**
   - CS210 *Data Management for Data Science* — **2024**.
   - CS213 *Software Methodology* — **2023**.
