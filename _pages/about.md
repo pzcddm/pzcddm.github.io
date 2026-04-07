@@ -17,7 +17,7 @@ I am a Ph.D. candidate in Computer Science at Rutgers University, advised by [Pr
 # Publications
 
 - **Cache Mechanism for Agent RAG Systems.**  
-  Shuhang Lin*, **Zhencan Peng***, Lingyao Li, Xiao Lin, Xi Zhu, Yongfeng Zhang.  
+  Shuhang Lin, **Zhencan Peng***, Lingyao Li, Xiao Lin, Xi Zhu, Yongfeng Zhang.  
   **ACL 2026 Findings**.
 
 - **LSHAlign: All-Pair Near-Duplicate Text Alignment via Locality-Sensitive Hashing.**  
