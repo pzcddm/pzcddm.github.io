@@ -23,6 +23,10 @@ I am a Ph.D. candidate in Computer Science at Rutgers University, advised by [Pr
   Yan Wang, Jian Zhou, Sai Huang, Chao Dou, Hanwen Tian, Zhijie Jiang, Zongning Zhang, Xiaoqi Li, **Zhencan Peng**, Chunhui Shen, Wei Zhang, Feifei Li, Dong Deng.  
   **ACM SIGMOD 2026 (Industry)**.
 
+- **Cache Mechanism for Agent RAG Systems.**  
+  Shuhang Lin*, **Zhencan Peng***, Lingyao Li, Xiao Lin, Xi Zhu, Yongfeng Zhang.  
+  **ACL 2026 Findings**.
+
 - **Near-Duplicate Text Alignment under Weighted Jaccard Similarity.**  
   Yuheng Zhang, Miao Qiao, **Zhencan Peng**, Dong Deng.  
   **PVLDB 2026**.
