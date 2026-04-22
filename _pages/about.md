@@ -82,7 +82,6 @@ I am a Ph.D. candidate in Computer Science at Rutgers University, advised by [Pr
 
 # Selected Awards
 - **VLDB 2025 Travel Fellowship**.
-- **SIGMOD 2023 Travel Fellowship**.
 - **National Scholarship**, Ministry of Education, P.R. China (2020).
 
 
