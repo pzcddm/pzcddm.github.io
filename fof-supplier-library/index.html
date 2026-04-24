@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FOF供应商库</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">F</div>
+          <div>
+            <strong>FOF供应商库</strong>
+            <span>私募管理人及产品台账</span>
+          </div>
+        </div>
+
+        <label class="search-box">
+          <span>搜索</span>
+          <input id="searchInput" type="search" placeholder="管理人 / 产品 / 策略" />
+        </label>
+
+        <div class="filter-group">
+          <div class="filter-title">策略类型</div>
+          <button class="filter-chip active" data-filter="all">全部</button>
+          <button class="filter-chip" data-filter="股票多头">股票多头</button>
+          <button class="filter-chip" data-filter="量化中性">量化中性</button>
+          <button class="filter-chip" data-filter="CTA">CTA</button>
+          <button class="filter-chip" data-filter="债券策略">债券策略</button>
+        </div>
+
+        <div class="side-section">
+          <div class="section-heading">供应商私募公司</div>
+          <div id="managerList" class="manager-list"></div>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">供应商产品穿透视图</p>
+            <h1>下投私募产品库</h1>
+          </div>
+          <div class="top-actions">
+            <button id="addProductBtn" class="primary-action">+ 新增产品</button>
+            <button id="exportBtn" class="secondary-action">导出CSV</button>
+          </div>
+        </header>
+
+        <section class="metrics-grid" aria-label="核心指标">
+          <div class="metric">
+            <span>供应商</span>
+            <strong id="metricManagers">0</strong>
+          </div>
+          <div class="metric">
+            <span>下投产品</span>
+            <strong id="metricProducts">0</strong>
+          </div>
+          <div class="metric">
+            <span>总投资本金</span>
+            <strong id="metricCapital">0</strong>
+          </div>
+          <div class="metric">
+            <span>平均最新净值</span>
+            <strong id="metricNav">0</strong>
+          </div>
+        </section>
+
+        <section class="workspace">
+          <div class="product-panel">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">产品清单</p>
+                <h2 id="managerTitle">全部供应商</h2>
+              </div>
+              <select id="statusSelect" aria-label="状态筛选">
+                <option value="all">全部状态</option>
+                <option value="存续中">存续中</option>
+                <option value="观察期">观察期</option>
+                <option value="已赎回">已赎回</option>
+              </select>
+            </div>
+            <div class="table-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>产品名称</th>
+                    <th>管理人</th>
+                    <th>策略</th>
+                    <th>投资金额</th>
+                    <th>最新净值</th>
+                    <th>状态</th>
+                  </tr>
+                </thead>
+                <tbody id="productTable"></tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="detail-panel">
+            <div class="detail-header">
+              <div>
+                <p class="eyebrow" id="detailManager">请选择产品</p>
+                <h2 id="detailProduct">产品详情</h2>
+              </div>
+              <span id="detailStatus" class="status-pill">-</span>
+            </div>
+
+            <div class="detail-grid">
+              <div>
+                <span>成立日</span>
+                <strong id="detailStart">-</strong>
+              </div>
+              <div>
+                <span>到期 / 开放期</span>
+                <strong id="detailEnd">-</strong>
+              </div>
+              <div>
+                <span>投委会评级</span>
+                <strong id="detailRating">-</strong>
+              </div>
+              <div>
+                <span>最新净值</span>
+                <strong id="detailNav">-</strong>
+              </div>
+            </div>
+
+            <div class="chart-card">
+              <div class="chart-head">
+                <span>存续期间净值走势</span>
+                <strong id="chartReturn">-</strong>
+              </div>
+              <canvas id="navChart" width="720" height="300"></canvas>
+            </div>
+
+            <div class="nav-table-card">
+              <div class="section-heading">净值表</div>
+              <div class="table-scroll small">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>日期</th>
+                      <th>单位净值</th>
+                      <th>周涨跌</th>
+                      <th>备注</th>
+                    </tr>
+                  </thead>
+                  <tbody id="navTable"></tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="memo-card">
+              <div class="section-heading">尽调与运营备注</div>
+              <p id="detailMemo">选择一个产品后查看投后跟踪重点。</p>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <dialog id="productDialog">
+      <form id="productForm" method="dialog">
+        <div class="modal-head">
+          <h2>新增下投产品</h2>
+          <button class="icon-button" value="cancel" aria-label="关闭">×</button>
+        </div>
+        <div class="form-grid">
+          <label>管理人<input name="manager" required placeholder="例如：明远私募基金管理有限公司" /></label>
+          <label>产品名称<input name="name" required placeholder="例如：明远稳健成长1号" /></label>
+          <label>策略<select name="strategy"><option>股票多头</option><option>量化中性</option><option>CTA</option><option>债券策略</option></select></label>
+          <label>投资金额（万元）<input name="capital" type="number" min="0" required placeholder="3000" /></label>
+          <label>成立日<input name="start" type="date" required /></label>
+          <label>到期 / 开放期<input name="end" placeholder="2027-12-31 / 月度开放" /></label>
+          <label>状态<select name="status"><option>存续中</option><option>观察期</option><option>已赎回</option></select></label>
+          <label>评级<select name="rating"><option>A</option><option>A-</option><option>B+</option><option>B</option></select></label>
+        </div>
+        <label class="full-label">备注<textarea name="memo" rows="3" placeholder="投后跟踪重点、风险事项、联系人等"></textarea></label>
+        <div class="modal-actions">
+          <button value="cancel" class="secondary-action">取消</button>
+          <button id="saveProductBtn" value="default" class="primary-action">保存</button>
+        </div>
+      </form>
+    </dialog>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
