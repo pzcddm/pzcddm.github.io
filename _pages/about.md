@@ -16,6 +16,10 @@ I am a Ph.D. candidate in Computer Science at Rutgers University, advised by [Pr
 
 # Publications
 
+- **Conformal Path Reasoning: Trustworthy Knowledge Graph Question Answering via Path-Level Calibration.**  
+  **Zhencan Peng**, et al.  
+  **ICML 2026**.
+
 - **Cache Mechanism for Agent RAG Systems.**  
   Shuhang Lin, **Zhencan Peng***, Lingyao Li, Xiao Lin, Xi Zhu, Yongfeng Zhang.  
   **ACL 2026 Findings**.
