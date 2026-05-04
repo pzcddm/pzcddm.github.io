@@ -20,10 +20,6 @@ I am a Ph.D. candidate in Computer Science at Rutgers University, advised by [Pr
   Shuhang Lin, Chuhao Zhou*, Xiao Lin, Zihan Dong, Kuan Lu, **Zhencan Peng**, Jie Yin, Dimitris N. Metaxas.  
   **ICML 2026**. [OpenReview](https://openreview.net/forum?id=qxdeq2sKGW)
 
-- **Cache Mechanism for Agent RAG Systems.**  
-  Shuhang Lin, **Zhencan Peng***, Lingyao Li, Xiao Lin, Xi Zhu, Yongfeng Zhang.  
-  **ACL 2026 Findings**.
-
 - **LSHAlign: All-Pair Near-Duplicate Text Alignment via Locality-Sensitive Hashing.**  
   Yuheng Zhang, **Zhencan Peng***, Miao Qiao, Wei Zhang, Feifei Li, Dong Deng.  
   **SIGMOD 2026**.  
