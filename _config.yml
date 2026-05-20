@@ -22,7 +22,8 @@ repository               : "pzcddm/pzcddm.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  # avatar temporarily hidden — restore with: avatar: "profile.png"
+  avatar           :
   name             : "Zhencan Peng"
   pronouns         : # example: "she/her"  
   bio              : "PhD candidate, Rutgers Computer Science. On the job market—feel free to reach out."
