@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Zhencan Peng"
 title_separator          : "-"
 name                     : &name "Zhencan Peng"
-description              : &description "PhD candidate in Computer Science at Rutgers; similarity search, minhash, deduplication. On the job market."
+description              : &description "PhD candidate in Computer Science at Rutgers; similarity search, minhash, deduplication."
 url                      : https://pzcddm.github.io # the base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "pzcddm/pzcddm.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Zhencan Peng"
   pronouns         : # example: "she/her"  
-  bio              : "PhD candidate, Rutgers Computer Science. On the job market—feel free to reach out."
+  bio              : "PhD candidate, Rutgers Computer Science."
   location         : "New Jersey, USA"
   employer         : "Rutgers University"
   uri              : # URL
