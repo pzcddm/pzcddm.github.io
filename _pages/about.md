@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate in Computer Science at Rutgers University, advised by [Prof. Dong Deng](https://people.cs.rutgers.edu/~dd903/). My research centers on near-duplicate text alignment and deduplication for large-scale LLM pretraining datasets, vector databases and approximate nearest neighbor (ANN) search, and sparse attention for efficient LLM inference. Previously, I was a research intern at Alibaba Cloud. I am open to discussions and collaborations, and I am **currently on the job market for 2026**. Feel free to reach out at **zhencan.peng@rutgers.edu**.
+I am glad to have joined the **Yaochi (瑶池) Database team at Alibaba Cloud, Alibaba Group**. My research centers on near-duplicate text alignment and deduplication for large-scale LLM pretraining datasets, vector databases and approximate nearest neighbor (ANN) search, and sparse attention for efficient LLM inference. I graduated from Rutgers University with a Ph.D. in Computer Science in **October 2026**, advised by [Prof. Dong Deng](https://people.cs.rutgers.edu/~dd903/). I am open to discussions and collaborations. Feel free to reach out at **zhencan.peng@rutgers.edu**.
 
 # News
 - **Mar 23, 2026:** Led our team to **1st place** in the **Deduplication** track of the [Alibaba Cloud Global Data+AI Engineer Challenge](https://tianchi.aliyun.com/specials/promotion/ai2026) (Tianchi).
